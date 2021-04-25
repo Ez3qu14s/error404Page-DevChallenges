@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#container header {
+    padding: 1.5rem 1.5rem;
+}
+
+#container header p {
+    font-family: "Inconsolata";
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#container main {
+    width: 100%;
+}
+
+#container main section:first-child {
+    width: 100%;
+    text-align: center;
+}
+
+#container main img {
+    width: 60%;
+    margin: 2rem;
+}
+
+#container main section:last-child {
+    width: 100%;
+    padding: 1.5rem;
+}
+
+#container main section:last-child h1 {
+    font-size: 3rem;
+    font-family: 'Space mono';
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#container main section:last-child p {
+    font-size: 1.1rem;
+    font-family: 'Space Mono';
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+#container main section:last-child button {
+    position: absolute;
+    width: 13.5rem;
+    /* height: 68px; */
+    height: 4.25rem;
+    background: #333333;
+    color: #fff;
+    font-family: 'Space Mono';
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+    font-size: .8rem;
+    font-family: 'Inconsolata';
+    color: #bdbdbd
+}
+
+@media (min-width: 720px) {
+    #container header {
+        padding: 1.5rem 5rem;
+    }
+
+    #container main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        
+    }
+    #container main img {
+        margin: 0;
+        width: 80%;
+    }
+
+    #container main section:last-child h1 {
+        font-size: 2rem;
+    }
+
+    #container main section:last-child p {
+        font-size: 1rem;
+    }
+
+    #container main section:last-child p, h1 {
+        width: 60%;
+    }
+
+    #container main section:last-child button {
+        font-size: .7rem;
+        width: auto;
+        height: auto;
+        padding: 1rem 1.3rem;
+    }
+    
+}
